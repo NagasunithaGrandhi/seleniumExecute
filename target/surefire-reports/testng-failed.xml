@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [regression]">
+  <test name="window(failed)">
+    <classes>
+      <class name="com.selenium.testscripts.GoogleScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleSearch"/>
+        </methods>
+      </class> <!-- com.selenium.testscripts.GoogleScript -->
+    </classes>
+  </test> <!-- window(failed) -->
+</suite> <!-- Failed suite [regression] -->
